@@ -1,0 +1,171 @@
+html, body {
+  margin: 0;
+}
+
+
+
+
+
+
+
+.btn{
+  background-color:#333;
+  padding: 10px 30px;
+  color:#fff;
+  text-decoration:none;
+  border-radius:0;
+}
+
+.btn:hover{
+background-color:#ffb305;
+  color:#111;
+}
+.btn-submit{
+  background-color:#999;
+  padding: 10px 30px;
+  color:#111;
+  text-decoration:none;
+  border-radius:0;
+}
+.btn-submit:hover{
+background-color:#ffb305;
+   text-decoration:none;
+  color:#111;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+
+
+/* Main */
+.main {
+  height: 600px;
+  text-align:center;
+  background:url('https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg') no-repeat center center;
+  background-size:cover;
+  padding: 100px 0;
+}
+
+.main h1 {
+  font-size: 150px;
+  color:#fff;
+}
+
+.main p {
+  font-size: 18px;
+   color:#fff;
+}
+
+
+/* Supporting */
+.supporting {
+  text-align: center;
+  padding: 50px 0 80px;
+  background-color: #1c1c1c;
+}
+
+.supporting .col {
+  float: left;
+  width: 28%;
+  padding: 10px;
+}
+
+.supporting h1,
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Feature */
+.feature {
+  height: 600px;
+  background: url('https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.feature h1,
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  padding:50px 0 0;
+  text-transform: uppercase;
+  padding: 250px 0;
+}
+
+/* Footer */
+.footer {
+  text-transform:uppercase;
+  height: 600px;
+  background: url('https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.footer .container{
+
+}
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+}
